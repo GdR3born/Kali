@@ -2,8 +2,6 @@
 
 
 
-#!/usr/bin/env python3
-"""
 # 🔍 Automated Vulnerability Scanner
 
 This Python script automates several vulnerability and enumeration scans for a given target using popular tools like **Nmap**, **Nikto**, **SSLScan**, **BloodHound**, **BEEF**, and **Uniscan**.
