@@ -26,9 +26,9 @@ def run_bloodhound(target,username,password):
     print("[+] Bloodhound scan complete")
 
 def run_Kerbrute(target, username_kerbrute):
-    #print(f"[+] Running Kerbrute scan on {target}...")
-    #subprocess.run(["kerbrute", "userenum", "-d", username_kerbrute, target])
-    #print("[+] Kerbrute scan complete")
+    print(f"[+] Running Kerbrute scan on {target}...")
+    subprocess.run(["kerbrute", "userenum", "-d", username_kerbrute, target])
+    print("[+] Kerbrute scan complete")
 
 def run_BEEF(beef_URL):
     print(f"Browser Explointation Framework running scan on {beef_URL}")
