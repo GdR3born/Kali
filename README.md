@@ -1,3 +1,7 @@
+<img width="2560" height="1440" alt="Banner_logo" src="https://github.com/user-attachments/assets/1a4de613-24ec-4217-8e8e-b5b6608b7a46" />
+
+
+
 #!/usr/bin/env python3
 """
 # 🔍 Automated Vulnerability Scanner
