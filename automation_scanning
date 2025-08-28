@@ -40,9 +40,9 @@ def run_uniscan(target):
 
 def run_commix(target):
     print(f"[+] Running Commix on {target}...")
-    commix_output = "commix_scan.txt"
-    subprocess.run(["commix", "--url", target, "--batch", "--output-dir=.", "--output-file", commix_output])
-    print(f"[+] Commix scan saved to {commix_output}")
+    commix_output_dir = "commix_scan.txt"
+    subprocess.run(["commix", "--url", target, "--batch", "--output-dir=.", commix_output_dir])
+    print(f"[+] Commix scan saved to {commix_output_dir}")
 
 def run_dismap(target):
     print(f"[+] Running Dismap on {target}...")
